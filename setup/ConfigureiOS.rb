@@ -54,9 +54,9 @@ module Pod
           end
       end
 
-      #暂时不支持自定义prefix
+      #将类的前缀prefix设置为ZZ
       prefix = nil
-      prefix = ""
+      prefix = "ZZ"
 
       # loop do
       #   prefix = configurator.ask("What is your class prefix")
