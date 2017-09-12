@@ -56,7 +56,7 @@ module Pod
 
       #暂时不支持自定义prefix
       prefix = nil
-      prefix = "ZZ"
+      prefix = ""
 
       # loop do
       #   prefix = configurator.ask("What is your class prefix")

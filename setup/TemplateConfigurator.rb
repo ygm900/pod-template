@@ -74,11 +74,9 @@ module Pod
       framework = "objc".to_sym
       case framework
         when :swift
-          puts "ConfigureSwift"
           ConfigureSwift.perform(configurator: self)
 
         when :objc
-          puts "ConfigureIOS"
           ConfigureIOS.perform(configurator: self)
       end
 
