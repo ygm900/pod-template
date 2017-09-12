@@ -1,3 +1,5 @@
+pod lib create ProjectName --template-url=https://github.com/CocoaPods/pod-template.git
+
 pod-template
 ============
 
