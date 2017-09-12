@@ -90,7 +90,9 @@ module Pod
       reinitialize_git_repo
       run_pod_install
 
-      @message_bank.farewell_message
+      # @message_bank.farewell_message  #禁止自动打开Xcode工程    
+      @message_bank.succ_message
+
     end
 
     #----------------------------------------#

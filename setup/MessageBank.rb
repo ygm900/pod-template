@@ -67,6 +67,10 @@ module Pod
       run_command "open 'Example/#{pod_name}.xcworkspace'", "open '#{pod_name}/Example/#{pod_name}.xcworkspace'"
     end
 
+    def succ_message
+      puts "🎉  🎉  🎉  create pod success ！！"
+    end
+
 
     def run_setup_questions
 
